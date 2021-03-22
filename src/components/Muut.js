@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./Component.css";
 
-function Keittiö() {
+function Muut() {
   return (
     <div className="tausta">
       {" "}
@@ -127,11 +127,12 @@ function Keittiö() {
           </Carousel>
         </div>{" "}
         <div className="teksti">
-          <h3>Keittiöt</h3>
+          <h3>Muut</h3>
           <p>
-            Keittiö on iso osa arkea. Vanhaan keittiöön voidaan uusia kaikki
-            kalusteet ja kodinkoneet, mutta myös pienellä päivityksellä saadaan
-            uutta ilmettä ja käyttöikää pidennettyä.
+            Aina rakentamisen tai remontoinnin ei tarvitse olla suuri
+            kokonaisuus. Toteutan ammatitaidolla myös pienempiä töitä, kuten
+            esimerkiksi pieniä lattiavaluja, terasseja, keittiön ehostuksia tai
+            vaikka kylpyhuoneen silikonien vaihtoja.
           </p>
         </div>{" "}
       </div>
@@ -139,4 +140,4 @@ function Keittiö() {
   );
 }
 
-export default Keittiö;
+export default Muut;

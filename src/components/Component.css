@@ -19,6 +19,14 @@
   border-color: rgb(39, 39, 39);
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%), 0 6px 100px 0 rgb(0 0 0 / 95%);
 }
+.carousel-inner img {
+  margin: auto;
+  height: 700px;
+  max-width: 450px;
+}
 
-.tausta {
+.teksti {
+  padding-top: 2%;
+  width: 75%;
+  margin: auto;
 }

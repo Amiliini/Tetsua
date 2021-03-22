@@ -12,6 +12,8 @@ function Navigaatio() {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/Keittiö">Keittiö</Nav.Link>
               <Nav.Link href="/Kylpyhuone">Kylpyhuone</Nav.Link>
+              <Nav.Link href="/Muut">Muut</Nav.Link>
+              <Nav.Link href="/Yhteydenotto">Yhteydenotto</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

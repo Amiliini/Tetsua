@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Kylpyhuone from "./components/Kylpyhuone";
 import Keittiö from "./components/Keittiö";
 import Home from "./components/Home";
+import Muut from "./components/Muut";
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <Router>
         <Navigaatio />
         <Switch>
-          <Route path="/kylpyhuone" component={Kylpyhuone} />
-          <Route path="/keittiö" component={Keittiö} />
-          <Route path="/" component={Home} />
+          <Route exact path="/kylpyhuone" component={Kylpyhuone} />
+          <Route exact path="/keittiö" component={Keittiö} />
+          <Route exact path="/muut" component={Muut} />
+          <Route exact path="/" component={Home} />
         </Switch>
       </Router>
     </div>
