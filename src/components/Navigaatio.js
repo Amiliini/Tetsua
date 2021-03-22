@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Navigaatio() {
   return (
@@ -9,11 +10,10 @@ function Navigaatio() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/Keittiö">Keittiö</Nav.Link>
-              <Nav.Link href="/Kylpyhuone">Kylpyhuone</Nav.Link>
-              <Nav.Link href="/Muut">Muut</Nav.Link>
-              <Nav.Link href="/Yhteydenotto">Yhteydenotto</Nav.Link>
+              <Link to="/">Home</Link>
+              <Link to="/Keittiö">Keittiö</Link>
+              <Link to="/Kylpyhuone">Kylpyhuone</Link>
+              <Link to="/Muut">Muut</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

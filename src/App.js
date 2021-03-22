@@ -1,6 +1,6 @@
 import "./App.css";
 import Navigaatio from "./components/Navigaatio";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 import Kylpyhuone from "./components/Kylpyhuone";
 import Keittiö from "./components/Keittiö";
 import Home from "./components/Home";
