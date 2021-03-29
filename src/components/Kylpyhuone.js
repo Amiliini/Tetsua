@@ -79,6 +79,21 @@ function Kylpyhuone() {
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-50"
+                src={"./images/saunakomp1.jpg"}
+                alt="Third slide"
+              />
+
+              <Carousel.Caption>
+                <h3>Fourth slide label</h3>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
           </Carousel>
         </div>{" "}
         <div className="teksti">
