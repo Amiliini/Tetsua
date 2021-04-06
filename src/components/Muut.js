@@ -5,127 +5,59 @@ import "./Component.css";
 function Muut() {
   return (
     <div className="tausta">
-      {" "}
       <div className="divi">
-        <div>
-          <Carousel>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/keittiö.jpg"}
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/keittiö1.jpg"}
-                alt="Second slide"
-              />
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/mmuut1.jpg"}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/mmuut2.jpg"}
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/mmuut3.jpg"}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/mmuut4.jpg"}
+              alt="Fourth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/mmuut5.jpg"}
+              alt="Fifth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/mmuut6.jpg"}
+              alt="Sixth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/mmuut7.jpg"}
+              alt="Seventh slide"
+            />
+          </Carousel.Item>
+        </Carousel>
 
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/keittiö2.jpg"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/keittiö3.jpg"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Fourth slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/keittiö4.jpg"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Fourth slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/keittiö5.jpg"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Fourth slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/keittiö6.jpg"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Fourth slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/keittiö7.jpg"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Fourth slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </div>{" "}
         <div className="teksti">
           <h3>Muut</h3>
           <p>
@@ -134,7 +66,7 @@ function Muut() {
             esimerkiksi pieniä lattiavaluja, terasseja, keittiön ehostuksia tai
             vaikka kylpyhuoneen silikonien vaihtoja.
           </p>
-        </div>{" "}
+        </div>
       </div>
     </div>
   );

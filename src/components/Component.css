@@ -1,18 +1,23 @@
 .divi {
   /* background-color: #8c8c8c; */
   /* opacity: 0.7; */
-  padding-top: 70px;
+  padding-top: 100px;
   width: 80%;
   margin: auto;
   padding-bottom: 35px;
 }
+.divi-logolle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .sisältö {
-  background-color: #8c8c8c;
-  /* opacity: 1; */
-  width: 90%;
+  background-color: #585858;
+  opacity: 0.95;
+  width: 80%;
   margin: auto;
-  padding-top: 2%;
+  padding-top: 3%;
   padding-bottom: 2%;
   padding-right: 4%;
   padding-left: 4%;
@@ -35,6 +40,72 @@
 
 .logo {
   width: 750px;
+
+  padding-top: 15%;
   -webkit-filter: drop-shadow(5px 5px 5px #666666);
   filter: drop-shadow(5px 5px 8px #ffffff);
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+#responsive-navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+#responsive-navbar-nav {
+  display: flex; /* establish flex container */
+  align-items: center; /* center ul container vertically */
+  justify-content: center;
+}
+p {
+  color: #ffffff;
+}
+h3 {
+  color: #ffffff;
+}
+input {
+  width: 80%;
+}
+input,
+textarea {
+  border: 2px solid rgb(170, 168, 168);
+  border-radius: 4px;
+  width: 80%;
+}
+textarea {
+  height: 150px;
+}
+
+label {
+  padding-top: 2vh;
+  color: #ffffff;
+  margin-right: 18px;
+}
+
+a {
+  color: aqua;
+}
+
+.formi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border-radius: 4px;
+  color: #ffffff; /* Green */
+  background-color: #4caf50;
+  border: 2px solid rgb(170, 168, 168);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+button:hover {
+  opacity: 1;
+}
+
+.tiedot {
+  padding-top: 5vh;
 }

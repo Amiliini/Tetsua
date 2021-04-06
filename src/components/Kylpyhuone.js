@@ -5,97 +5,94 @@ import "./Component.css";
 function Kylpyhuone() {
   return (
     <div className="tausta">
-      {" "}
       <div className="divi">
-        <div>
-          <Carousel>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/pesu1.jpg"}
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/pesu2.jpg"}
-                alt="Second slide"
-              />
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri1.jpg"}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri2.jpg"}
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri3.jpg"}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri4.jpg"}
+              alt="Fourth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri5.jpg"}
+              alt="Fifth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri6.jpg"}
+              alt="Sixth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri7.jpg"}
+              alt="Seventh slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri8.jpg"}
+              alt="Eight slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri9.jpg"}
+              alt="Ninth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri10.jpg"}
+              alt="Tenth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri11.jpg"}
+              alt="Eleventh slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-50"
+              src={"./images/klppri12.jpg"}
+              alt="Twelfth slide"
+            />
+          </Carousel.Item>
+        </Carousel>
 
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/pesu3.jpg"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/pesu4.jpg"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Fourth slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/pesu5.jpg"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Fourth slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-50"
-                src={"./images/saunakomp1.jpg"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Fourth slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </div>{" "}
         <div className="teksti">
           <h3>Pesuhuoneet ja saunat</h3>
           <p>
@@ -106,7 +103,7 @@ function Kylpyhuone() {
             sisustustimpurina takaa laadukkaan viimeistelyn ja näyttävän
             lopputuloksen.
           </p>
-        </div>{" "}
+        </div>
       </div>
     </div>
   );

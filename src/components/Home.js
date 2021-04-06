@@ -3,15 +3,13 @@ import "./Component.css";
 
 function Home() {
   return (
-    <div className="tausta">
-      <div className="divi">
-        <img
-          className="logo"
-          src={"./images/TetsuaLogo.png"}
-          alt="TetsuaRakennus logo"
-        />
-      </div>
-    </div>
+    // <div className="tausta">
+    <img
+      className="logo"
+      src={"./images/TetsuaLogo.png"}
+      alt="TetsuaRakennus logo"
+    />
+    // </div>
   );
 }
 

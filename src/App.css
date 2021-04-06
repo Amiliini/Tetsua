@@ -1,9 +1,18 @@
 .App {
   text-align: center;
+  background-image: url(images/tausta.jpeg);
+
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.kuva {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.wrapper {
+  flex: 1;
 }

@@ -10,109 +10,37 @@ function Keittiö() {
           <Carousel.Item>
             <img
               className="d-block w-50"
-              src={"./images/keittiö.jpg"}
+              src={"./images/kttio1.jpg"}
               alt="First slide"
             />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-50"
-              src={"./images/keittiö1.jpg"}
+              className="d-block w-1000 "
+              src={"./images/kttio2.jpg"}
               alt="Second slide"
             />
-
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-50"
-              src={"./images/keittiö2.jpg"}
+              src={"./images/kttio3.jpg"}
               alt="Third slide"
             />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-50"
-              src={"./images/keittiö3.jpg"}
-              alt="Third slide"
+              src={"./images/kttio4.jpg"}
+              alt="Fourth slide"
             />
-
-            <Carousel.Caption>
-              <h3>Fourth slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-50"
-              src={"./images/keittiö4.jpg"}
-              alt="Third slide"
+              src={"./images/kttio5.jpg"}
+              alt="Fifth slide"
             />
-
-            <Carousel.Caption>
-              <h3>Fourth slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-50"
-              src={"./images/keittiö5.jpg"}
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Fourth slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-50"
-              src={"./images/keittiö6.jpg"}
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Fourth slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-50"
-              src={"./images/keittiö7.jpg"}
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Fourth slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
 
